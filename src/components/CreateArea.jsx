@@ -30,7 +30,7 @@ function CreateArea(props) {
   function handlenotedata(e){
     e.preventDefault();
     if(note.title === "" || note.content === "") {
-      notify("Fill out alllll the fields!");
+      notify("Fill out all the fields!");
       return;
     }
     props.onAdd(note);
