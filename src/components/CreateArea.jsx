@@ -58,6 +58,7 @@ function CreateArea(props) {
          <AddIcon/>
         </Fab>
         </Zoom>
+    <ToastContainer position="top-right" autoClose={2000} />
       </form>
     </div>
   );
