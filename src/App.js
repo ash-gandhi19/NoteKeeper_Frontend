@@ -5,7 +5,7 @@ import Register from "./components/Register";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Footer from "./components/Footer";
-export const url = "http://localhost:5000";
+export const url = "https://notesskeeper.herokuapp.com";
 var App = () => {
   return (
     <Router>
