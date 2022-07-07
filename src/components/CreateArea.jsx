@@ -52,7 +52,9 @@ function CreateArea(props) {
         /> 
         
       <Zoom in={isExpanded} >
-        <Fab>
+           <Fab
+          onClick={handlenotedata}
+        >
          <AddIcon/>
         </Fab>
         </Zoom>
