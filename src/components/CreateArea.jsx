@@ -52,13 +52,7 @@ function CreateArea(props) {
         /> 
         
       <Zoom in={isExpanded} >
-        <Fab
-          onClick={(e) => {
-            props.onAdd(note);
-            setNote({title: "", content: ""});
-            e.preventDefault();
-          }}
-        >
+        <Fab>
          <AddIcon/>
         </Fab>
         </Zoom>
